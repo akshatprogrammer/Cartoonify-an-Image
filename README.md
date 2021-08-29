@@ -11,3 +11,6 @@ Mini Project for Vth Sem 2021
 4. Imageio: Used to read the file which is chosen by file box using a path.</br>
 5. Matplotlib: This library is used for visualization and plotting. Thus, it is imported to form the plot of images.</br>
 6. OS: For OS interaction. Here, to read the path and save images to that path.</br>
+
+## Step 2: Building a File Box to choose a particular file
+In this step, we will build the main window of our application, where the buttons, labels, and images will reside. We also give it a title by title() function.</br>
