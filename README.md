@@ -20,3 +20,19 @@ For a computer, everything is just numbers. Thus, in the below code, we will con
 
 <b>Beginning with image transformations:</b></br>
 To convert an image to a cartoon, multiple transformations are done. Firstly, an image is converted to a Grayscale image. Yes, similar to the old day’s pictures.! Then, the Grayscale image is smoothened, and we try to extract the edges in the image. Finally, we form a color image and mask it with edges. This creates a beautiful cartoon image with edges and lightened color of the original image.
+
+# Connect With Me
+LinkedIn : https://www.linkedin.com/in/akshatjaingeu/<br/>
+Email : akshat.kodia@gmail.com<br/>
+Twitter : www.twitter.com/akki_aj89<br/>
+Website : https://akshatprogrammer.github.io/portfolio/
+
+# Personal
+Name : Akshat Jain<br/>
+University : Graphic Era University, Dehradun(UK)
+
+If any problem with this program reach me at Telegram<br/>
+Here is the link -> https://t.me/akki_aj89
+
+# Gratitude
+Thank You, if you like it please leave a Star.
