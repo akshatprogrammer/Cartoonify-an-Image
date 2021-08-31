@@ -14,3 +14,9 @@ Mini Project for Vth Sem 2021
 
 ## Step 2: Building a File Box to choose a particular file
 In this step, we will build the main window of our application, where the buttons, labels, and images will reside. We also give it a title by title() function.</br>
+
+## Step 3: How to store an image?
+For a computer, everything is just numbers. Thus, in the below code, we will convert our image into a numpy array.</br>
+
+<b>Beginning with image transformations:</b></br>
+To convert an image to a cartoon, multiple transformations are done. Firstly, an image is converted to a Grayscale image. Yes, similar to the old day’s pictures.! Then, the Grayscale image is smoothened, and we try to extract the edges in the image. Finally, we form a color image and mask it with edges. This creates a beautiful cartoon image with edges and lightened color of the original image.
