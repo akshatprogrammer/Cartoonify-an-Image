@@ -44,8 +44,21 @@ Combine the two specialties. This will be done using MASKING. We perform bitwise
 ## Step 9: Plotting all the transitions together
 To plot all the images, we first make a list of all the images. The list here is named “images” and contains all the resized images. Now, we create axes like subl=plots in a plot and display one-one images in each block on the axis using imshow() method.
 
+## Step 10: Functionally of save button
+imwrite() method of cv2 is used to save the file at the path mentioned. 
+cv2.cvtColor(ReSized6, cv2.COLOR_RGB2BGR) is used to assure that no color get extracted or highlighted while we save our image.
 
+## Step 11: Making the main window
+Using Tkinter Module, created the main window.
 
+## Step 12: Making the Cartoonify button in the main window
+Using the <b>button<b> function.
+
+# Summary
+Yes, now we have a reason to tease our sibling by saying “You look like a cartoon”. Just cartoonify his/ her image, and show it!
+
+We have successfully developed Image Cartoonifier with OpenCV in Python. This is the magic of openCV which let us do miracles.
+ 
 # Connect With Me
 LinkedIn : https://www.linkedin.com/in/akshatjaingeu/<br/>
 Email : akshat.kodia@gmail.com<br/>

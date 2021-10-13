@@ -11,6 +11,13 @@ from tkinter import filedialog
 from tkinter import *
 from PIL import ImageTk, Image
 
+top=tk.Tk()
+top.geometry('400x400')
+top.title('Cartoonify Your Image !')
+top.configure(background='white')
+label=Label(top,background='#CDCDCD', font=('calibri',20,'bold'))
+
+
 # 29-08-2021
 
 """ fileopenbox opens the box to choose file
@@ -37,14 +44,7 @@ def cartoonify(ImagePath):
 
     ReSized1 = cv2.resize(originalmage, (960, 540))
     #plt.imshow(ReSized1, cmap='gray')
- """
-Imread is a method in cv2 which is used to store images in the form of numbers.
-This helps us to perform operations according to our needs.
-The image is read as a numpy array, in which cell values depict R, G, and B values of a pixel.
- """
 
- # Transforming an image to grayscale
-    #converting an image to grayscale
     grayScaleImage= cv2.cvtColor(originalmage, cv2.COLOR_BGR2GRAY)
     ReSized2 = cv2.resize(grayScaleImage, (960, 540))
     #plt.imshow(ReSized2, cmap='gray')
@@ -89,3 +89,20 @@ The image is read as a numpy array, in which cell values depict R, G, and B valu
     save1.pack(side=TOP,pady=50)
     
     plt.show()
+
+def save(ReSized6, ImagePath):
+    #saving an image using imwrite()
+    newName="cartoonified_Image"
+    path1 = os.path.dirname(ImagePath)
+    extension=os.path.splitext(ImagePath)[1]
+    path = os.path.join(path1, newName+extension)
+    cv2.imwrite(path, cv2.cvtColor(ReSized6, cv2.COLOR_RGB2BGR))
+    I= "Image saved by name " + newName +" at "+ path
+    tk.messagebox.showinfo(title=None, message=I)
+
+upload=Button(top,text="Cartoonify an Image",command=upload,padx=10,pady=5)
+upload.configure(background='#364156', foreground='white',font=('calibri',10,'bold'))
+upload.pack(side=TOP,pady=50)
+
+top.mainloop()
+
