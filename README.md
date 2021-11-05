@@ -1,7 +1,7 @@
 # Cartoonify-an-Image
 
 <p align="center">
-    <table><tr><td>Mini Project for Vth Sem 2021.</td></tr></table>
+    <img src="https://repository-images.githubusercontent.com/400706498/2b71af19-fc0c-4041-80f6-ad9640b645d8" width="700">
 </p>
 
 
@@ -109,18 +109,30 @@ Yes, now we have a reason to tease our sibling by saying “You look like a cart
 
 We have successfully developed Image Cartoonifier with OpenCV in Python. This is the magic of openCV which let us do miracles.
  
+
 # Connect With Me
-LinkedIn : https://www.linkedin.com/in/akshatjaingeu/<br/>
-Email : akshat.kodia@gmail.com<br/>
-Twitter : www.twitter.com/akki_aj89<br/>
-Website : https://akshatprogrammer.github.io/portfolio/
+<img src ="https://cdns.iconmonstr.com/wp-content/assets/preview/2012/240/iconmonstr-linkedin-3.png" width="50"> : [https://www.linkedin.com/in/akshatjaingeu/](https://www.linkedin.com/in/akshatjaingeu/)<br/>
+<img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Logo_Gmail_%282015-2020%29.svg/2560px-Logo_Gmail_%282015-2020%29.svg.png" width="50"> : [akshat.kodia@gmail.com ](akshat.kodia@gmail.com)<br/>
+<img src ="https://cdns.iconmonstr.com/wp-content/assets/preview/2012/240/iconmonstr-twitter-1.png" width="50"> : [www.twitter.com/akki_aj89](www.twitter.com/akki_aj89)<br/>
+<img src ="https://toppng.com/uploads/preview/file-svg-world-wide-web-website-logo-11563356036uvwy5cvxhx.png" width="50"> : [https://akshatprogrammer.github.io/portfolio/](https://akshatprogrammer.github.io/portfolio/)
 
 # Personal
-Name : Akshat Jain<br/>
-University : Graphic Era University, Dehradun(UK)
+<img
+  align="right"
+  width="275x"
+  src="https://miro.medium.com/max/1400/1*0FqDC0_r1f5xFz3IywLYRA.jpeg"
+/>
+- 💬 Name : Akshat Jain
+- 🏫 University : Graphic Era University, Dehradun(UK)
+- 4️⃣Roll Number : 1918006
+- 🇩4️⃣ Section : D4
+- ✨Batch : 2023
 
+     
+
+    
 If any problem with this program reach me at Telegram<br/>
-Here is the link -> https://t.me/akki_aj89
+<img src="https://e7.pngegg.com/pngimages/772/115/png-clipart-computer-icons-telegram-logo-angle-white.png" width="70"> -> [Telegram](https://t.me/akki_aj89)
 
 # Gratitude
 Thank You, if you like it please leave a Star.
