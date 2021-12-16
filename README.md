@@ -141,4 +141,4 @@ If any problem with this program reach me at Telegram<br/>
 Thank You, if you like it please leave a Star.
 
 # Reference 
-    Varios blogs and youtubers.
+    Various blogs and youtubers.
